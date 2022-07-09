@@ -2,9 +2,10 @@ import html
 import  requests
 import json
 
-BOTAPI_UPDATE = "https://api.telegram.org/bot1975970237:AAGNghNOLjfSbRlZdOZzo2UjEHY0xpaKC70/getUpdates"
-BOTAPI_POLL = "https://api.telegram.org/bot1975970237:AAGNghNOLjfSbRlZdOZzo2UjEHY0xpaKC70/sendPoll"
-BOTAPI_MESSAGE = "https://api.telegram.org/bot1975970237:AAGNghNOLjfSbRlZdOZzo2UjEHY0xpaKC70/sendMessage"
+BOT_TOKEN = "your token"
+BOTAPI_UPDATE = f"https://api.telegram.org/bot{BOT_TOKEN}>/getUpdates"
+BOTAPI_POLL = f"https://api.telegram.org/bot{BOT_TOKEN}/sendPoll"
+BOTAPI_MESSAGE = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 QAPI = "https://opentdb.com/api.php?amount=1&type=boolean"
 
 
